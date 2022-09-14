@@ -1,0 +1,65 @@
+.block1{
+   position: fixed;
+   width: 371px;
+   height: 100%;
+   right: 0px;
+   top: 0px;
+   background: rgba(136, 175, 126, 0.44);
+}
+
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+.item{
+   flex: 1 100px;
+}
+.item:first-child{
+   flex: 1 100px;
+   margin-left: 211px;
+   margin-right: 200px;
+}
+.h1{
+   font-family: 'Bebas Neue';
+   font-weight: 400;
+   font-size: 150px;
+   line-height: 180px;
+   color: #000000;
+   margin-right: 561px;
+   text-align: right;
+   margin-top: 74px;
+}
+.text{
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 52px;
+   line-height: 63px;
+   text-align: justify;
+   margin-right: 157px;
+   width: 1392px;
+   color: #000000;
+   margin-top: 67px;
+}
+
+.location{
+   margin-top: 126px;
+   display: flex;
+   align-items: center;
+}
+.location_text{
+   font-family: 'Inter';
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: justify;
+   margin-left: 31px;
+}
+.pic{
+   width: 1000px;
+}
+.close{
+   position: absolute;
+   top: 60px; right: 68px;
+   cursor: pointer;
+   z-index: 10;
+}

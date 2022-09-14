@@ -1,0 +1,54 @@
+.mainpage{
+   width: 100%;
+   height: 100vh;
+   background: url(../../media/img/Header/background-picture.png) no-repeat center top / cover;
+   padding-top: 64px;
+}
+.content{
+   display: flex;
+}
+.item{
+   flex: 1;
+   text-align: right;
+}
+.socialBlock{
+   margin-left: 64px;
+   display: flex;
+}
+.socialItem{
+   margin-left: 48px;
+}
+.socialItem:first-child{
+   margin-left: 0;
+}
+.h1{
+   font-family: 'Bebas Neue';
+   font-weight: 400;
+   font-size: 128px;
+   line-height: 154px;
+   margin-right: 96px;
+}
+.enter{
+   display: block;
+   margin-top: 64px;
+   padding: 16px 75px;
+   width: 251px;
+   border: 3px solid #000;
+   text-align: center;
+   font-family: 'BenchNine';
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 67px;
+   color: #000;
+   text-decoration: none;
+   transition: 0.3s;
+}
+.enter:hover{
+   background: #000;
+   color: #88AF7E
+}
+.buttonArea{
+   display: flex;
+   justify-content: center;
+   padding-left: 274px;
+}

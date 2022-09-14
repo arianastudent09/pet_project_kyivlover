@@ -1,0 +1,85 @@
+
+.block1{
+   position: fixed;
+   width: 518px;
+   height: 100%;
+   top: 0; left: 0;
+   background: rgba(136, 175, 126, 0.44);
+}
+.block2{
+   position: fixed;
+   position: 491px;
+   width: 518px;
+   height: 100%;
+   top: 0; right: 125px;
+   background: #88AF7E;
+}
+
+.about{
+   display: flex;
+   margin-top: 67px;
+   z-index: 10;
+}
+
+.h1{
+   font-family: 'Bebas Neue';
+   font-weight: 400;
+   font-size: 150px;
+   line-height: 180px;
+   text-align: right;
+   padding-right: 125px;
+}
+.aboutText{
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 73px;
+   text-align: justify;
+   margin-left: 149px;
+   margin-top: 153px;
+}
+.aboutText a{
+   color: #88AF7E;
+   text-decoration: none;
+}
+.text{
+   flex: 3;
+}
+.image{
+   flex: 1;
+}
+.luisa{
+   margin-left: 316px;
+   margin-right: 100px;
+}
+.name{
+   margin-top: 111px;
+   font-family: 'Inter';
+   text-align: right;
+   font-weight: 500;
+   font-size: 95px;
+   line-height: 115px;
+   margin-right: 106px;
+}
+.instLink{
+   display: block;
+   text-align: right;
+   margin-top: 29px;
+   margin-right: 300px;
+}
+.instLink a{
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 61px;
+   color: #000000;
+   text-decoration: none;
+   text-align: justify;
+}
+.close{
+   z-index: 11;
+   position: fixed;
+   padding: 0;
+   left: 53px; top: 53px;
+   cursor: pointer;
+}

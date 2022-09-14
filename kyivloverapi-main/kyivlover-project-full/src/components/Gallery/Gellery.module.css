@@ -1,0 +1,180 @@
+.gallery{
+   padding: 0 108px;
+   padding-top: 76px;
+   padding-bottom: 106px;
+   background: #EAEBE8;
+   min-height: 100vh;
+}
+.header{
+   display: flex;
+   align-items: flex-end;
+}
+.h1{
+   font-family: 'Bebas Neue';
+   font-weight: 400;
+   font-size: 128px;
+   line-height: 154px;
+}
+.pages{
+   display: flex;
+   align-items: flex-end;
+   justify-content: right;
+   flex: 1;
+}
+
+.link{
+   margin-left: 63px;
+   display: block;
+   font-family: 'Bebas Neue';
+   font-weight: 400;
+   font-size: 55px;
+   line-height: 66px;
+   color: #000000;
+   text-decoration: none;
+}
+.link:first-child{
+   margin-left: 0;
+}
+.checked{
+   color: #88AF7E;
+}
+.fotos{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.fitem{
+   position: relative;
+   width: 23%;
+   margin: 10px;
+}
+.about{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: rgba(21, 46, 15, 0.57);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   z-index: 1;
+   transition: 0.3s;
+   display: flex;
+   justify-content: center;
+   padding: 0 10px;
+   align-items: center;
+   opacity: 0;
+}
+.name{
+   text-align: center;
+}
+.name a{
+   font-family: 'Inter';
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 61px;
+   text-decoration: none;
+   color: #fff;
+}
+.about:hover{
+   opacity: 1;
+}
+.pic{
+   width: 100%;
+}
+.button{
+   font-family: 'Bebas Neue';
+   font-size: 55px;
+   line-height: 66px;
+   color: #000000;
+   border: 3px solid #000;
+   width: 251px;
+   height: 88px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin-left: 99px;
+   background: #EAEBE8;
+   font-weight: 100;
+   transition: 0.3s;
+}
+.button:hover{
+   background: #000;
+   color: #88AF7E;
+}
+
+
+
+.popup, .form{
+   position: fixed;
+   top: 0; left: 0;
+   width: 100%;
+   min-height: 100%;
+   background: rgba(36, 35, 35, 0.71);
+   z-index: 2;
+}
+.form{
+   position: absolute;
+   z-index: 3;
+   left: calc(50% - 426px);
+   max-width: 852px;
+   margin: 0 auto;
+   padding-left: 70px;
+   padding-right: 70px;
+   padding-bottom: 117px;
+   padding-top: 69px;
+   margin-top: 76px;
+   margin-bottom: 76px;
+   background: #FFFFFF;
+   border: 2px solid #000000;
+   border-radius: 20px;
+}
+.loginh3{
+   font-family: 'Bebas Neue';
+   margin-top: 41px;
+   font-weight: 400;
+   font-size: 85px;
+   line-height: 102px;
+   color: #000000;
+}
+.inputText{
+   font-family: 'Inter';
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   color: #000000;
+}
+.inputs{
+   margin-top: 59px;
+}
+.input{
+   width: 100%;
+   padding: 10px;
+   font-size: 36px;
+   margin-top: 10px;
+   border: 5px solid #88AF7E;
+   border-radius: 10px;
+   outline: 0;
+}
+.loginbtn{
+   background: #88AF7E;
+   border: 5px solid #88AF7E;
+   border-radius: 10px;
+   padding: 37px 297px;
+   font-family: 'Inter';
+   width: 100%;
+   margin-top: 100px;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+.profileArea{
+   text-align: center;
+   margin-left: 182px;
+}
+.username{
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 44px;
+}
